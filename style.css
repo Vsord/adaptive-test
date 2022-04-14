@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  background-color: blueviolet;
+}
+.wrapper .header {
+  min-height: 46px;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrapper .header .header__logo .header__logo_elem {
+  margin: 6px 0px 0px 100px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid brown;
+  border-radius: 50%;
+  background-color: brown;
+}
+@media (max-width: 732px) {
+  .wrapper .header .header__logo .header__logo_elem {
+    margin: 6px 0px 2px 20px;
+  }
+}
+.wrapper .header .flex__end .header__menu {
+  display: inline-block;
+  margin: 0px 100px 0px 0px;
+}
+@media (max-width: 754px) {
+  .wrapper .header .flex__end .header__menu {
+    display: none;
+  }
+}
+.wrapper .header .flex__end .header__menu .header__menu_elem {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin: 10px;
+  border: 1px solid darkgoldenrod;
+  background-color: darkgoldenrod;
+}
+.wrapper .header .flex__end .header__menu_burger {
+  display: inline-block;
+  margin: 0px 100px 2px 0px;
+}
+@media (max-width: 754px) {
+  .wrapper .header .flex__end .header__menu_burger {
+    margin: 10px 100px 2px 0px;
+  }
+}
+@media (max-width: 732px) {
+  .wrapper .header .flex__end .header__menu_burger {
+    margin: 10px 20px 2px 0px;
+  }
+}
+.wrapper .header .flex__end .header__menu_burger .header__burger_elem {
+  border-bottom: 4px solid black;
+  margin-bottom: 6px;
+  width: 25px;
+}
+.wrapper .content {
+  margin: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.wrapper .content .content__block {
+  margin: 30px;
+  border: 3px solid black;
+  width: 300px;
+}
+.wrapper .footer {
+  border-top: 3px solid black;
+  background-color: blue;
+}
+.wrapper .footer .footer__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrapper .footer .footer__wrapper .footer__content_block {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  margin: 10px;
+  border: 1px solid darkgoldenrod;
+  background-color: darkgoldenrod;
+}
+
+/*# sourceMappingURL=style.css.map */
